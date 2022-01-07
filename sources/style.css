@@ -21,14 +21,14 @@ a {
     margin-right: 5vh;
     margin-left: 5vh;
     margin-bottom: 3vh;
-    border: 0.4vh solid rgb(120, 65, 180);
+    background-color: rgb(120, 65, 180);
     transition: 200ms ease;
-    border-radius: 0.5vh;
+    border-radius: 0.2vh;
     font-size: 1.6vh;
 }
 
 a:hover {
-    background-color: rgb(120, 65, 180);
+    background-color: rgb(110, 55, 165);
 }
 
 h1,h2 {
