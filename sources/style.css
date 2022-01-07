@@ -1,0 +1,75 @@
+html {
+    background-color: rgb(40, 40, 40);
+    font-family: 'Lucida Console';
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    padding: 1.5vh;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    margin-bottom: 3vh;
+    background-color: rgb(0, 170, 200);
+    transition: 200ms ease;
+    border-radius: 0.2vh;
+    font-size: 1.6vh;
+}
+
+a:hover {
+    background-color: rgb(1, 140, 160);
+}
+
+h1,h2 {
+    font-size: 1.8vh;
+    font-weight: normal;
+}
+
+h2 {
+    padding: 2vh 0vh 2vh 0vh;
+}
+
+h2::before {
+    content: "#### ";
+}
+
+main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.contentsec {
+    margin: auto;
+    top: 50%;
+}
+
+.contentsec h1 {
+    padding: 0vh 10vh 0vh 10vh;
+}
+
+.title {
+    margin: auto;
+    padding: 7.5vh 0vh 5vh 0vh;
+    font-size: 5vh;
+}
+
+.socials {
+    padding: 1vh 0vh 2vh 0vh;
+}
