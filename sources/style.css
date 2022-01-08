@@ -66,9 +66,9 @@ main {
 }
 
 .title {
-    margin: auto;
-    padding: 7.5vh 0vh 5vh 0vh;
+    margin: 5vh 0vh 5vh 0vh;
     font-size: 5vh;
+    cursor: pointer;
 }
 
 .socialh2 {
