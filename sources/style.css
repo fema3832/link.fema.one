@@ -67,7 +67,8 @@ main {
 
 .title {
     margin: 5vh 0vh 5vh 0vh;
-    font-size: 5vh;
+    width: 50vh;
+    height: 10vh;
     cursor: pointer;
 }
 
