@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(30, 30, 30);
     font-family: 'Lucida Console';
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -10,11 +10,8 @@ a {
     color: rgb(255, 255, 255);
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-direction: column;
     flex-direction: column;
 
     padding: 1.5vh;
@@ -25,19 +22,20 @@ a {
     transition: 200ms ease;
     border-radius: 0.2vh;
     font-size: 1.6vh;
+    cursor: pointer
 }
 
 a:hover {
     background-color: rgb(110, 55, 165);
 }
 
-h1,h2 {
+h1,h2,p {
     font-size: 1.8vh;
     font-weight: normal;
 }
 
 h2 {
-    padding: 2vh 0vh 2vh 0vh;
+    padding: 1vh 0vh 2vh 0vh;
 }
 
 h2::before {
@@ -55,6 +53,9 @@ main {
         flex-direction: column;
 }
 
+/*Other
+=======================*/
+
 .contentsec {
     margin: auto;
     top: 50%;
@@ -70,6 +71,6 @@ main {
     font-size: 5vh;
 }
 
-.socials {
+.socialh2 {
     padding: 1vh 0vh 2vh 0vh;
 }
