@@ -21,7 +21,7 @@ a {
     background-color: rgb(120, 65, 180);
     transition: 200ms ease;
     border-radius: 0.2vh;
-    font-size: 1.6vh;
+    font-size: 1.2vh;
     cursor: pointer
 }
 
@@ -30,7 +30,7 @@ a:hover {
 }
 
 h1,h2,p {
-    font-size: 1.8vh;
+    font-size: 1.3vh;
     font-weight: normal;
 }
 
